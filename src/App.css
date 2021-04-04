@@ -1,38 +1,68 @@
-.App {
+body {
+  background: black;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.profile-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  height: auto;
+  max-width: 100px;
+}
+
+.profile-name {
   text-align: center;
+  padding: 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-subheader {
+  text-align: center;
+  padding: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.links {
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  border-width: 2px;
+  width: 290px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+a {
+  text-decoration: none;
   color: white;
+  transition: color 1s;
+  transition: 0.8 ease;
+
 }
 
-.App-link {
-  color: #61dafb;
+.bottom-text {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  background: #fff;
+  color: #000;
+  transition: 0.8 ease;
+}
+
+.links-cover {
+  transition: 0.8 ease;
 }
